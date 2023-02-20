@@ -38,7 +38,7 @@ const ContactsContextProvider = ({ children }) => {
   }
 
   async function getOneContact(id) {
-    let res = await axios.post(`${API}/${id}`);
+    let res = await axios(`${API}/${id}`);
     dispatch({
       type: "GET_ONE_CONTACT",
       payload: res.data,

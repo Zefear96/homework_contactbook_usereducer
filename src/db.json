@@ -1,10 +1,16 @@
 {
   "contacts": [
     {
-      "name": "Pepe",
+      "name": "Pepe UPD",
       "lastName": "Tuto",
       "phone": "888",
       "id": 1
+    },
+    {
+      "name": "Hose",
+      "lastName": "Amigo UPD",
+      "phone": "666",
+      "id": 2
     }
   ]
 }

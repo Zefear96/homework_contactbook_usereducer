@@ -10,7 +10,9 @@ const ContactList = () => {
   }, []);
 
   return (
-    <div className="mx-auto mt-5 w-50 d-flex justify-content-between flex-wrap">
+    <div
+      style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
+    >
       {contacts.map((item) => (
         <ContactCard key={item.id} item={item} />
       ))}

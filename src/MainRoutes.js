@@ -11,7 +11,7 @@ const MainRoutes = () => {
       <Routes>
         <Route path="/" element={<ContactList />} />
         <Route path="/add" element={<AddContact />} />
-        <Route path="/edit" element={<EditContact />} />
+        <Route path="/edit/:id" element={<EditContact />} />
       </Routes>
     </ContactsContextProvider>
   );
